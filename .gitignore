@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.production
+client/.env
+server/.env
+
+# Build outputs
+client/dist/
+client/build/
+server/dist/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Deployment files from nested folder
+mern-stack-integration-steve-kings/DEPLOYMENT.md
+mern-stack-integration-steve-kings/DEPLOYMENT_INSTRUCTIONS.md
+mern-stack-integration-steve-kings/
+
+# Uploads
+server/uploads/
+
+# Testing
+coverage/
+.nyc_output/
+
+# Misc
+*.pem
+.cache/
